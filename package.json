@@ -1,0 +1,14 @@
+{
+  "name": "krit-engineer-skills",
+  "version": "0.1.0",
+  "description": "A standard engineering flow (grill-with-docs -> to-spec -> to-tickets -> implement -> code-review) for shipping products with AI coding agents, with real GitHub issue automation, plus optional RAG/MCP helpers.",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "claude-code",
+    "agent-skills",
+    "rag",
+    "mcp",
+    "langgraph"
+  ]
+}
