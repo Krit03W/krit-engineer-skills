@@ -85,6 +85,9 @@ the situation calls for them — no separate flow to run:
   (module, interface, depth, seam, adapter, leverage, locality). Used by
   `improve-codebase-architecture` and reachable directly whenever a
   module's interface needs shaping.
+- **`prototype`** — builds throwaway code to answer a design question: a
+  single HTML file to sanity-check a state model, or several toggleable
+  UI variations to answer "what should this look like?"
 
 They're independent of the core flow — skip any of them you never reach
 for and the main flow still works the same.
