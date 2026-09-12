@@ -81,9 +81,13 @@ the situation calls for them — no separate flow to run:
 - **`research`** — delegates a research question to a background agent
   that investigates primary sources and writes cited findings to a
   Markdown file, so you can keep working while it reads.
+- **`codebase-design`** — shared vocabulary for designing deep modules
+  (module, interface, depth, seam, adapter, leverage, locality). Used by
+  `improve-codebase-architecture` and reachable directly whenever a
+  module's interface needs shaping.
 
-They're independent of the core flow — skip it if you never reach for it
-and the main flow still works the same.
+They're independent of the core flow — skip any of them you never reach
+for and the main flow still works the same.
 
 ## Why the core flow exists
 
