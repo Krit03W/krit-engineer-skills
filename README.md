@@ -73,6 +73,18 @@ model-invoked helpers for that kind of work specifically:
 They're independent of the core flow — a non-agent project can ignore
 all three and the main flow works the same.
 
+## Optional: design & research helpers
+
+Independent, model-invoked helpers Claude can reach for on its own when
+the situation calls for them — no separate flow to run:
+
+- **`research`** — delegates a research question to a background agent
+  that investigates primary sources and writes cited findings to a
+  Markdown file, so you can keep working while it reads.
+
+They're independent of the core flow — skip it if you never reach for it
+and the main flow still works the same.
+
 ## Why the core flow exists
 
 - **`grill-with-docs`** closes the #1 cause of bad AI-generated code:
