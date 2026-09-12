@@ -54,6 +54,15 @@ needs more than one sitting or more than one person picking it up.
   hands off to `to-spec` → `to-tickets` like any other confirmed plan.
   Not for a single well-scoped feature; use `grill-with-docs` for that.
 
+## Improving an existing codebase
+
+- **`improve-codebase-architecture`** — scans a codebase (or a part of it
+  you point at) for deepening opportunities, presents them as a visual
+  HTML report, then walks whichever one you pick through
+  `grill-with-docs` to shape the actual change. For codebases with
+  history and friction, not new work — use `grill-with-docs` directly for
+  that.
+
 ## Optional: AI-agent helpers
 
 If the project involves an AI agent, RAG pipeline, or MCP server,
