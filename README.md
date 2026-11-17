@@ -111,6 +111,13 @@ for and the main flow still works the same.
   explicitly ask to audit or pen-test a codebase. Needs Node.js for its
   validators and an OS-enforced sandbox before it will run target code.
   See `skills/security-audit/UPSTREAM.md` for the pinned commit.
+- **`skill-inspector`** — vendored from
+  [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)
+  (Apache 2.0). Reviews an agent skill before you install it, combining a
+  static `skillspector` scan with a source-aware semantic review, and ends
+  with `APPROVE` / `CAUTION` / `REJECT`. The `skillspector` CLI is
+  installed separately; without it the skill does a manual review only.
+  See `skills/skill-inspector/UPSTREAM.md`.
 
 ## Why the core flow exists
 
