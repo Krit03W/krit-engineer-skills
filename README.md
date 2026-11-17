@@ -101,6 +101,17 @@ the situation calls for them — no separate flow to run:
 They're independent of the core flow — skip any of them you never reach
 for and the main flow still works the same.
 
+## Optional: security audit
+
+- **`security-audit`** — vendored from
+  [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
+  (MIT). Guidance mode for security questions and focused reviews; a full
+  six-phase audit (recon → coverage-led hunting → adversarial validation →
+  `findings.json` → independent verification → report) only when you
+  explicitly ask to audit or pen-test a codebase. Needs Node.js for its
+  validators and an OS-enforced sandbox before it will run target code.
+  See `skills/security-audit/UPSTREAM.md` for the pinned commit.
+
 ## Why the core flow exists
 
 - **`grill-with-docs`** closes the #1 cause of bad AI-generated code:
