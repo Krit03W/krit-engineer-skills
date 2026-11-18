@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="krit-engineer-skills: grill-with-docs → to-spec → to-tickets → implement → code-review" width="100%">
+  <img src="assets/banner.svg" alt="krit-engineer-skills: grill-with-docs → to-spec → to-tickets → implement → code-review, plus security-audit and skill-inspector" width="100%">
 </p>
 
 <p align="center">
