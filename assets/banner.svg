@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="450" viewBox="0 0 1280 450" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="462" viewBox="0 0 1280 462" role="img" aria-labelledby="title desc">
   <title id="title">krit-engineer-skills</title>
-  <desc id="desc">An engineering flow for shipping real products with AI coding agents: grill-with-docs, to-spec, to-tickets, implement, code-review.</desc>
+  <desc id="desc">An engineering flow for shipping real products with AI coding agents: grill-with-docs, to-spec, to-tickets, implement, code-review. Or start with wayfinder for foggy, multi-session builds. Plus security-audit and skill-inspector.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0a0f1f"/>
@@ -19,12 +19,15 @@
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
       <path d="M0 0L10 5L0 10z" fill="#64748b"/>
     </marker>
+    <marker id="arrowViolet" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#a78bfa"/>
+    </marker>
   </defs>
 
-  <clipPath id="card"><rect width="1280" height="450" rx="20"/></clipPath>
+  <clipPath id="card"><rect width="1280" height="462" rx="20"/></clipPath>
   <g clip-path="url(#card)">
-    <rect width="1280" height="450" fill="url(#bg)"/>
-    <rect width="1280" height="450" fill="url(#grid)"/>
+    <rect width="1280" height="462" fill="url(#bg)"/>
+    <rect width="1280" height="462" fill="url(#grid)"/>
     <circle cx="1120" cy="40" r="170" fill="#8b5cf6" opacity="0.28" filter="url(#blur)"/>
     <circle cx="150" cy="400" r="160" fill="#06b6d4" opacity="0.22" filter="url(#blur)"/>
   </g>
@@ -66,16 +69,22 @@
       <line x1="930" y1="294" x2="960" y2="294"/>
     </g>
 
-    <text x="456" y="366" font-size="14" fill="#34d399" letter-spacing="1">+ SECURITY</text>
+    <text x="162" y="366" font-size="14" fill="#c4b5fd" letter-spacing="1">OR</text>
+    <rect x="190" y="344" width="120" height="34" rx="17" fill="#a78bfa" fill-opacity="0.06" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <text x="250" y="367" font-size="16" font-weight="600" fill="#ede9fe">wayfinder</text>
+    <path d="M316 361 H440 Q466 361 466 326" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrowViolet)"/>
+    <text x="250" y="400" font-size="12" fill="#8b7fb8" letter-spacing="0.5">foggy, multi-session builds</text>
+
+    <text x="717" y="366" font-size="14" fill="#34d399" letter-spacing="1">+ SECURITY</text>
     <g fill="#34d399" fill-opacity="0.06" stroke="#34d399" stroke-width="1.5">
-      <rect x="525" y="344" width="166" height="34" rx="17"/>
-      <rect x="703" y="344" width="176" height="34" rx="17"/>
+      <rect x="786" y="344" width="166" height="34" rx="17"/>
+      <rect x="964" y="344" width="176" height="34" rx="17"/>
     </g>
     <g font-size="16" font-weight="600" fill="#d1fae5">
-      <text x="608" y="367">security-audit</text>
-      <text x="791" y="367">skill-inspector</text>
+      <text x="869" y="367">security-audit</text>
+      <text x="1052" y="367">skill-inspector</text>
     </g>
 
-    <text x="640" y="420" font-size="16" fill="#64748b">18 plain SKILL.md files  ·  Claude Code  ·  Codex  ·  Cursor  ·  Copilot</text>
+    <text x="640" y="436" font-size="16" fill="#64748b">18 plain SKILL.md files  ·  Claude Code  ·  Codex  ·  Cursor  ·  Copilot</text>
   </g>
 </svg>
